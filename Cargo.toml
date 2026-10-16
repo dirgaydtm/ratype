@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Dirgaaa <dirgayuditama6@gmail.com>"]
 license = "MIT"
 edition = "2024"
+repository = "https://github.com/dirgaydtm/ratype"
+readme = "README.md"
+description = "Local-first code typing test for the terminal and the web"
+homepage = "https://github.com/dirgaydtm/ratype"
 
 [dependencies]
 color-eyre = "0.6"
@@ -29,3 +33,10 @@ ratatui = { version = "0.30", default-features = false, features = ["layout-cach
 crossterm = { version = "0.29", features = ["event-stream"] }
 dirs = "7"
 rodio = "0.20"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+strip = true
