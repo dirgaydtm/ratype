@@ -1,6 +1,6 @@
 # Ratype
 
-<img align="right" src="./assets/images/ratype.jpg" width="150" alt="Ratype logo" />
+<img align="right" src="./assets/images/ratype.svg" width="150" alt="Ratype logo" />
 
 **A code typing test for the terminal and the browser.**
 
