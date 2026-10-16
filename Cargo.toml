@@ -7,7 +7,6 @@ edition = "2024"
 repository = "https://github.com/dirgaydtm/ratype"
 readme = "README.md"
 description = "Local-first code typing test for the terminal and the web"
-homepage = "https://github.com/dirgaydtm/ratype"
 
 [dependencies]
 color-eyre = "0.6"
